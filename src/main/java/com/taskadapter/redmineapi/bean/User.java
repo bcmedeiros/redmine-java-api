@@ -102,11 +102,11 @@ public class User implements Identifiable {
         this.apiKey = apiKey;
     }
 
-	/**
-	 * This value is not returned by redmine on existing users.
-	 * 
-	 * @return - The Authentication Source ID, if you set it on your own.
-	 */
+    /**
+     * This value is not returned by redmine on existing users.
+     * 
+     * @return - The Authentication Source ID, if you set it on your own.
+     */
     @Deprecated
     public Integer getAuthSourceId() {
 		return authSourceId;
